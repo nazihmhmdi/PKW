@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap');
+
+.text {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 100px;
+    color: rgb(56, 56, 56);
+}
+
+.text2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    padding-right: 200px;
+    color: rgb(56, 56, 56);
+}
+
+.text3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    padding-top: 20px;
+    color: rgb(56, 56, 56);
+    text-align: center;
+    position: relative;
+}
+
+.text4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    margin-top: 140px ;
+    margin-right: 1100px;
+    color: rgb(56, 56, 56);
+    text-align: center;
+}
+
+.header {
+    padding: 5px;
+    text-align: center;
+    background: #FFAEBC;
+    color: white;
+}
+
+.kotak {
+    background-color: khaki;
+}
+
+.produk{
+    padding-top: 200px;
+    padding-bottom: 10px;
+    padding-left: 500px;
+    padding-right: 50px;
+}
+
+.rectangle {
+    width: 300px;
+    height: 100px;
+    background: #A0E7E5;
+    border-radius: 30px;
+    margin-left: 900px;
+    margin-top: 100px;
+    align-items: center;
+}
