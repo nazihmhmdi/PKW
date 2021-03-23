@@ -2,7 +2,7 @@
 
 .text {
     font-family: 'Bebas Neue', cursive;
-    font-size: 100px;
+    /* font-size: 100px; */
     color: rgb(56, 56, 56);
 }
 
@@ -22,14 +22,9 @@
     position: relative;
 }
 
-.text4 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
-    margin-top: 140px ;
-    margin-right: 1100px;
-    color: rgb(56, 56, 56);
-    text-align: center;
-}
+a:link {
+    text-decoration: lightcoral;
+  }
 
 .header {
     padding: 5px;
@@ -38,23 +33,52 @@
     color: white;
 }
 
-.kotak {
-    background-color: khaki;
+
+/* Responsive */
+/* Mobile */
+
+.bawah{
+    display: flex;
 }
 
-.produk{
-    padding-top: 200px;
-    padding-bottom: 10px;
-    padding-left: 500px;
-    padding-right: 50px;
+.atas{
+    justify-content: space-around;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(56, 56, 56);
+    text-align: center;
+    background-image: url(https://photos.app.goo.gl/7PXJHsZuwpf7EJkB6);
 }
 
-.rectangle {
-    width: 300px;
-    height: 100px;
-    background: #A0E7E5;
-    border-radius: 30px;
-    margin-left: 900px;
-    margin-top: 100px;
-    align-items: center;
+ table{
+    border: 2px solid black;
+} 
+
+/* Tablet */
+@media (min-width:768px) and (max-width:992px){
+    .atas{
+        font-family: 'Bebas Neue', cursive;
+        color: rgb(56, 56, 56);
+        text-align: center;
+        background-image: url(https://photos.app.goo.gl/7PXJHsZuwpf7EJkB6);
+    }
+    .bawah{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+/* Desktop */
+@media(min-width: 992px) {
+    .atas{
+        font-family: 'Bebas Neue', cursive;
+        color: rgb(56, 56, 56);
+        text-align: center;
+        background-image: url(https://photos.app.goo.gl/7PXJHsZuwpf7EJkB6);
+    }
+
+    .bawah{
+        display: flex;
+        justify-content: center;
+    }
 }
